@@ -16,10 +16,10 @@ docker run -d --name base liyongjian5179/centos:7
 
     创建并编写Dockerfile文件，内容大概如下：
 
-FROM liyongjian5179/centos:7
-MAINTAINER liyongjian5179 <liyongjian5179@163.com>
-RUN yum -y install nginx
-...
+FROM liyongjian5179/centos:7  
+MAINTAINER liyongjian5179 <liyongjian5179@163.com>  
+RUN yum -y install nginx  
+...  
 CMD ["nginx"]
 
     构建镜像

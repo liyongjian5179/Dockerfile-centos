@@ -5,8 +5,8 @@
 
 如何构建基础镜像
 
-git clone https://github.com/liyongjian5179/centos.git
-cd centos/centos7
+git clone https://github.com/liyongjian5179/centos.git  
+cd centos/centos7  
 docker build -t liyongjian5179/centos:7 .
 
 如何使用基础镜像

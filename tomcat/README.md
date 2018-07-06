@@ -6,7 +6,7 @@ docker run -d --restart=always -m=5120m -p 10.10.10.20:8280:8080 -v /opt/mavenSt
 docker cp jfxrt.jar lyj_jenkins:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-2.b11.el7_3.x86_64/jre/lib
 docker cp jfxrt.jar lyj_jenkins:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-2.b11.el7_3.x86_64/jre/lib/ext
 
-...
+>
 server {
 	listen 80;
 	server_name 123.com;
@@ -20,5 +20,5 @@ server {
 
 	}
 }
-...
+>
 # Jenkins Verions: 2.121.1

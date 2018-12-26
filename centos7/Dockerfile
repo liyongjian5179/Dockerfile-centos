@@ -10,6 +10,7 @@ MAINTAINER liyongjian5179 <liyongjian5179@163.com>
 
 ENV TZ "Asia/Shanghai"
 ENV TERM xterm
+ENV LANG en_US.UTF-8
 
 COPY aliyun-mirror.repo /etc/yum.repos.d/CentOS-Base.repo
 COPY aliyun-epel.repo /etc/yum.repos.d/epel.repo

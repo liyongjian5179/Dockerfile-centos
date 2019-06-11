@@ -69,7 +69,10 @@
     -->
     <Connector port="8080" protocol="HTTP/1.1" URIEncoding="UTF-8" maxPostSize="-1"
                connectionTimeout="20000"
-               redirectPort="8443" />
+               redirectPort="8443"  compression="on"
+                           compressionMinSize="50" noCompressionUserAgents="gozilla, traviata"
+                           compressableMimeType="text/html,text/xml,text/css,text/plain,image/gif,image/jpg,application/javascript,application/json,application/x-font-ttf,application/x-font-otf,image/svg+xml,image/jpeg,image/png,audio/mpeg,video/mp4"
+                           />
     <!-- A "Connector" using the shared thread pool-->
     <!--
              <Connector executor="tomcatThreadPool"
